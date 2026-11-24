@@ -1,0 +1,15 @@
+# Python >= 3.10
+numpy
+pandas
+openpyxl        # read .xlsx point files with pandas
+scipy
+rasterio
+fiona
+shapely
+pyproj
+xarray
+netCDF4
+plotly
+# GDAL Python bindings (osgeo.gdal), used by code/1_SAPM/unify_sapm.py:
+# install with the system package manager or conda (e.g. `conda install -c conda-forge gdal`),
+# matching the version of the installed GDAL library.

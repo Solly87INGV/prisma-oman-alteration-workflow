@@ -20,11 +20,11 @@ import fiona
 from scipy.ndimage import median_filter, binary_dilation, binary_erosion
 
 # ==================== CONFIG ====================
-INPUT_ENVI = r"D:\INGV\1_Human Mobility\PRISMA\PRS_L2D_STD_20250904064907_20250904064911_0001\VNIR_SWIR_latlon_907_CLEAN"
-SPECTRAL_DIR = r"E:\1_Human Mobility\MASPAG_2025\SAM_Hyperspectral\Hyperspectral\selected_minerals_NEW"
-OUTPUT_DIR   = r"D:\INGV\1_Human Mobility\OUTPUT_SAPM\907"
+INPUT_ENVI = r"path/to/VNIR_SWIR_latlon_219"
+SPECTRAL_DIR = r"path/to/selected_minerals_NEW"
+OUTPUT_DIR   = r"path/to/output_SAPM"
 
-GEOLOGY_SHP   = None   # es: r"D:\...\geology.shp"
+GEOLOGY_SHP   = None   # es: r"path/to/geology.shp"
 GEOLOGY_FIELD = None   # es: "UNIT"
 
 # ==========================================================
